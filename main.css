@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: rgb(2,0,36);
+    background: linear-gradient( rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+header h1 {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+input, button{
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+}
+
+input{
+    width: 20rem;
+}
+
+form button{
+    margin-left: 1rem;
+    background-color: green;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+section ol li {
+    min-width: 28rem;
+    border-bottom: 1px solid #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    color: #fff;
+}
+
+
+section ol li a img {
+   height: 1rem;
+   cursor: pointer;
+   margin-left: 5rem;
+}
+
+.task-completed{
+    color: red;
+    text-decoration: line-through;
+}
+
+.disableButton{
+    display: none;
+}
